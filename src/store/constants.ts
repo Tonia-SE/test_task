@@ -1,1 +1,0 @@
-export const GET_USERS_REQUEST = 'GET_USERS_REQUEST';

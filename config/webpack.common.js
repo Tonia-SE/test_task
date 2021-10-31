@@ -57,6 +57,13 @@ module.exports = {
           globOptions: {
             ignore: ['*.DS_Store'],
           },
+        },
+        {
+          from: `${paths.public}/mock.json`,
+          to: '.',
+          globOptions: {
+            ignore: ['*.DS_Store'],
+          },
         }
       ],
     }),
